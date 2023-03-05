@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 767px) { 
+    .mobile-menu{
+        display: none;
+    }
+
+    .menu{
+        display: flex;
+    }
+
+    .close{
+        display: none;
+        /* transition: all; */
+    }
+}
+
+.nav-border{
+    border-bottom: 1px solid black;
+}
