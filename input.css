@@ -7,6 +7,34 @@
     padding: 0;
 }
 
+.wrapper{
+    width: 70vw;
+    /* justify-content: start; */
+    justify-content: flex-start;
+    margin:50px auto;
+    max-height: 320px;
+    align-items:baseline;
+    border: 0px solid #ddd;
+    display: flex;
+    overflow-x:auto;
+    
+}
+
+.wrapper::-webkit-scrollbar{
+    width:0 ;
+}
+
+.wrapper .item{
+    min-width: 240px;
+    border: 1px solid #ddd;
+    height: 240px;
+    line-height: 110px;
+    text-align: center;
+    background-color: white;
+    margin-right: 22px;
+
+}
+
 @media (max-width: 767px) { 
     .mobile-menu{
         display: none;
@@ -24,4 +52,8 @@
 
 .nav-border{
     border-bottom: 1px solid black;
+}
+
+.answerdiv{
+    display: none;
 }
