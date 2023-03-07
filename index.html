@@ -7,11 +7,11 @@
     <title>Landing Page</title>
     <link rel="stylesheet" href="./input.css">
 </head>
-<body class="h-[120vh]">
+<body class="">
     <!-- header section -->
     <header class="sticky top-0 w-full flex flex-col md:h-[12vh] md:flex-row items-center">
         <!-- logo and button -->
-        <nav class="box-border nav-bar relative w-full md:w-1/4 h-[12vh] nav-border border-b-0 border-x-0  bg-gradient-to-b from-pink-200 to-pink-50 bg-blend-difference  flex flex-row items-center md:items-center">
+        <nav class="box-border nav-bar relative w-full md:w-1/4 h-[12vh] nav-border border-x-0 bg-opacity-90  bg-gradient-to-b from-pink-100 to-pink-50  flex flex-row items-center md:items-center">
             <div class="abosolute "><img class="rounded-full h-20" src="./img/My project.png" alt=""></div>
             <div onclick="myFunction()" class="flex md:hidden w-fit absolute right-6 font-semibold text-xl cursor-pointer text-gray-600 md:hover:text-black">
                 <span class="My-Menu menu hidden"> Menu</span>    
@@ -20,7 +20,7 @@
         </nav>
 
         <!-- mobile-menu and main-menu section -->
-        <div  class=" MyDiv mobile-menu flex bg-gradient-to-b from-pink-50 to-white md:bg-gradient-to-b md:from-pink-200 md:to-pink-50 border-[1px] border-b-black h-[24vh] md:h-[12vh]  w-full border-x-0">
+        <div  class=" MyDiv mobile-menu flex bg-gradient-to-b from-pink-50 to-white md:bg-gradient-to-b md:from-pink-100 md:to-pink-50 border-[1px] border-b-black h-[24vh] md:h-[12vh]  w-full border-x-0">
             <ul class="bg-opacity-90  w-full flex flex-col md:flex-row text-xl justify-evenly items-center md:w-3/4">
                 <li class="mx-auto w-[20vw]"><a class="font-semibold hover:text-pink-500" href="#">Home</a></li>
                 <li class="mx-auto w-[20vw]"><a class="font-semibold hover:text-pink-500" href="#">About</a></li>
@@ -33,8 +33,11 @@
 
     <!-- hero-section -->
 
-    <section class="w-[95%] mx-auto border-2 h-[40vh]">
-
+    <section class="w-[95%] mx-auto border-2 h-[200vh]">
+        <div class="flex flex-row justify-center text-center mt-20 space-y-2 bg-">
+            <!-- <h1 class="text-4xl font-semibold">A1 Dance Academy</h1> -->
+            <h1 class="text-4xl text-gray-900 font-semibold tracking-wide">Feel the <span>rhythm </span>inside your soul</h1>
+        </div>
     </section>
 
     <script src="./script.js"></script>
