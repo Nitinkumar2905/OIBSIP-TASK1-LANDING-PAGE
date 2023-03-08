@@ -50,9 +50,10 @@
     }
 }
 
-.nav-border{
-    border-bottom: 1px solid black;
-}
+    .nav-border{
+        border-bottom: 1px solid pink;
+    }
+
 
 .answerdiv{
     display: none;
