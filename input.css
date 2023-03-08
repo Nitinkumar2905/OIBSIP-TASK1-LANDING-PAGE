@@ -60,7 +60,7 @@
 
 .wrapper .item{
     min-width: 240px;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(241, 77, 214);
     height: 240px;
     line-height: 110px;
     text-align: center;
