@@ -239,40 +239,40 @@
     </section>
 
     <!-- contact section -->
-    <section id="contact" class="flex flex-col space-y-12 items-center mt-10 md:mt-20 mx-auto bg-pink-50 md:h-[95vh] lg:h-[85vh]">
+    <section id="contact" class="flex flex-col space-y-12 items-center mt-10 md:mt-20 mx-auto bg-pink-50 md:h-[95vh] lg:h-[90vh]">
       <div class="w-[90%] md:w-[45%] mx-auto mt-10 flex flex-col items-center space-y-2">
         <span class="text-pink-600 font-semibold text-4xl">Contact</span>
         <p class="text-pink-500 font-semibold text-xl w-full items-start">Email us your details and we will contact you as soon as possible.</p>
       </div>
-      <footer class="w-[90%] md:w-[50%] mx-auto pb-10  md:h-[60vh]">
-        <form class="flex flex-col space-y-6" action="" method="post">
+      <footer class="w-[90%] md:w-[50%] mx-auto  md:h-[60vh]">
+        <form class="flex flex-col space-y-6" action="https://formspree.io/f/mzbqvbjo" method="post">
           <div class="space-y-1">
             <label for="name" class="cursor-pointer text-xl font-semibold text-pink-500">Name:</label>
-            <input id="name" type="text" class="w-full outline-pink-600 py-1 px-2 font-semibold text-pink-500" placeholder="Enter Your Name" required>
+            <input id="name" type="text" name="Name" class="w-full outline-pink-600 py-1 px-2 font-semibold text-pink-500" placeholder="Enter Your Name" required>
           </div>
 
           <div class="space-y-1">
             <label for="email" class="cursor-pointer text-xl font-semibold text-pink-500">Email:</label>
-            <input id="email" type="email" class="w-full outline-pink-600 py-1 px-2 font-semibold text-pink-500" placeholder="Enter Your Email" required>
+            <input id="email" type="email" name="email" class="w-full outline-pink-600 py-1 px-2 font-semibold text-pink-500" placeholder="Enter Your Email" required>
           </div>
 
           <div class="space-y-1">
             <label for="phone" class="cursor-pointer text-xl font-semibold text-pink-500">Mobile Number:</label>
-            <input id="phone" type="phone" class="w-full  outline-pink-600 py-1 px-2 font-semibold text-pink-500" placeholder="Enter Your  Mobile Number" maxlength="10" minlength="10" required>
+            <input id="phone" type="phone" name="mobile number" class="w-full  outline-pink-600 py-1 px-2 font-semibold text-pink-500" placeholder="Enter Your  Mobile Number" maxlength="10" minlength="10" required>
           </div>
 
           <div class="space-y-1">
             <label for="address" class="cursor-pointer text-xl font-semibold text-pink-500">Address</label>
-            <input id="address" type="text" class="w-full  outline-pink-600 py-1 px-2 font-semibold text-pink-500" placeholder="Enter Your Address" min="20" required>
+            <input id="address" type="text" name="address" class="w-full  outline-pink-600 py-1 px-2 font-semibold text-pink-500" placeholder="Enter Your Address" minlength ="20" required>
           </div>
 
           <!-- <input type="submit" class="w-20"></input> -->
           <button type="submit" class="border-2 border-pink-600 px-8 hover:text-pink-500 py-1 rounded-md text-pink-600 font-semibold text-2xl mx-auto">Submit</button>
         </form>
 
-        <!-- <div class="mt-20 mx-auto text-pink-500 text-xl font-semibold w-full flex justify-center">
-          <span>Email us on : <a href="">did@gmail.com</a></span>
-        </div> -->
+        <div class="mt-10 md:mt-20  md:mx-auto text-pink-500 text-sm md:text-xl font-semibold w-full flex justify-center items-center">
+          &copy; copyright 2023 |<img class="h-8" src="./img/My project.png" alt=""> Feel the Rhythm | All Rights Reserved   
+        </div>
       </footer>
     </section>
 
